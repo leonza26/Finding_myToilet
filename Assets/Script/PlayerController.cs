@@ -13,8 +13,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField]
     private float speed;
-    [SerializeField]
-    private float speeds;
+    // [SerializeField] private float speeds; gak kepake
     // Start is called before the first frame update
     void Start()
     {
@@ -49,7 +48,7 @@ public class PlayerController : MonoBehaviour
         verticalAxis = Input.GetAxis("Vertical");
         direction2 = new Vector2(0, verticalAxis);
 
-        speeds = 3;
-        transform.Translate(direction2 * Time.deltaTime * speeds);
+        speed = 3; // awalnya make var speeds
+        // transform.Translate(direction2 * Time.deltaTime * speeds); gak kepake, kalo kepake jadi nambah kecepatan vertikalnya
     }
 }
