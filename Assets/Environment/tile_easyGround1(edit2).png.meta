@@ -1,0 +1,1121 @@
+fileFormatVersion: 2
+guid: 42b9ce3c02594884290ff41d1e8e1da7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 37
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 288
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc227869c6472c488b6d82d5fa8346d
+      internalID: 2128090578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 288
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe4c697e17b6ad46ad88aa3a913ed75
+      internalID: -2041987051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 288
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7362028730590f41a78e2d410c810df
+      internalID: 1235549642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_3
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 288
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7005d4a66e668964f92623f8c143ee21
+      internalID: 243991890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 288
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe14e74cbe27d64aa7c936420abb47d
+      internalID: -1267544361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_5
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 288
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f6dac882ef3994aad5fc75f4aa79e1
+      internalID: -1100491531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 247
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61832c078f2336b4096eeaacb64a54f5
+      internalID: -341744051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_7
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 247
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfe890d61499424788204a56efd258c
+      internalID: 2021536854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 247
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f729dceb6f71ea546b60b3141d27bcd0
+      internalID: -625907622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_9
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 247
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1353b350b7fea334a83cf6c744f69391
+      internalID: -265468624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_10
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 247
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db13e12cad95ce4f8c9d714032ffb94
+      internalID: 1316166196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_11
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 247
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb201751bebfd8d4ea28741362107d65
+      internalID: 289735544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 206
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d041123b90141e418e89d243fad42f4
+      internalID: -891151271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_13
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 206
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281f43e1625198e45a2a276f262e5de7
+      internalID: -1943636489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_14
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 206
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6b6aeea265ac84cad5854ef8b49b10
+      internalID: -276072966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_15
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 206
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09174f47840351441b2404c8bd3557de
+      internalID: -1335801682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_16
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 206
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6342d21425e288e42887013d7cb324da
+      internalID: -2031145311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 206
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4f8e666dc53034188a4a31ba02d9f4
+      internalID: 1761941281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 165
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34daf9698c98c6442978184e23548699
+      internalID: 1098880015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_19
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 165
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279b184b7aba36547961ceea87e7ecf1
+      internalID: -883293058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_20
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 165
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559398fb4165e6140b7c24f935c56459
+      internalID: -1684846674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_21
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 165
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b84a1d46b17f742b11fa96f4f8c721
+      internalID: -885583192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_22
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 165
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9e2e44d543901409937c2da0c888a1
+      internalID: 681920575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_23
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 165
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561b20373aba11244b6011b8475febd2
+      internalID: -105780830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 124
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68822b50b912c0b49a03ae1eb84e717b
+      internalID: -1248636013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_25
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 124
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe93c82c0979034f9223cf6879284db
+      internalID: 2004262181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_26
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 124
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e0861de4df8ea4e8e3311a3e2f88ea
+      internalID: -781627433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_27
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 124
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a255232965e791b42812042ccc0dd964
+      internalID: -1005550366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_28
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 124
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d11f17e922749499d6501c7a709ce5
+      internalID: 702898214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_29
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 124
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2edc97fe8bb284f9ee96ec4bde8694
+      internalID: -2116938302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 83
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae5e38788ac5ae42b208416cb30cfbb
+      internalID: -579848114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_31
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 83
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a1432df1de8574190364a9ed6d0362
+      internalID: 180097561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_32
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 83
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb13304b07cd6a45bf1479752e9fed0
+      internalID: 1588030230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_33
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 83
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abb8a8c4f89b574b9e668c225b74db6
+      internalID: -859037221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_34
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 83
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ae85ae38b1bbf44b159b7f017b01d5
+      internalID: -1373705580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_35
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 83
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989b9a17a4ecb7140baf78987ba23bec
+      internalID: 438110224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_36
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 42
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4403644aa9d5f5f489f376146a06a3be
+      internalID: -702198128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_37
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 42
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ab7ee9c5992db46b4819f4fef41ff6
+      internalID: 790802176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_38
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 42
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be49c83d776ca784d85b2be45564d692
+      internalID: 661008612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_39
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 42
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44891276ec14034496cc65b1f2c9954
+      internalID: -1554610436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_40
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d494efbb26556ea45ace7d70de781f95
+      internalID: 1101700687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_41
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c21ed7d07f43184884d175eaee2dab6
+      internalID: 129767368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_42
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491b5d9ab375a57499c6cf6ed1c4c827
+      internalID: 353924287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_easyGround1(edit2)_43
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47db8d735b8985d45b057ea87416bd02
+      internalID: 573471311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      tile_easyGround1(edit2)_0: 2128090578
+      tile_easyGround1(edit2)_1: -2041987051
+      tile_easyGround1(edit2)_10: 1316166196
+      tile_easyGround1(edit2)_11: 289735544
+      tile_easyGround1(edit2)_12: -891151271
+      tile_easyGround1(edit2)_13: -1943636489
+      tile_easyGround1(edit2)_14: -276072966
+      tile_easyGround1(edit2)_15: -1335801682
+      tile_easyGround1(edit2)_16: -2031145311
+      tile_easyGround1(edit2)_17: 1761941281
+      tile_easyGround1(edit2)_18: 1098880015
+      tile_easyGround1(edit2)_19: -883293058
+      tile_easyGround1(edit2)_2: 1235549642
+      tile_easyGround1(edit2)_20: -1684846674
+      tile_easyGround1(edit2)_21: -885583192
+      tile_easyGround1(edit2)_22: 681920575
+      tile_easyGround1(edit2)_23: -105780830
+      tile_easyGround1(edit2)_24: -1248636013
+      tile_easyGround1(edit2)_25: 2004262181
+      tile_easyGround1(edit2)_26: -781627433
+      tile_easyGround1(edit2)_27: -1005550366
+      tile_easyGround1(edit2)_28: 702898214
+      tile_easyGround1(edit2)_29: -2116938302
+      tile_easyGround1(edit2)_3: 243991890
+      tile_easyGround1(edit2)_30: -579848114
+      tile_easyGround1(edit2)_31: 180097561
+      tile_easyGround1(edit2)_32: 1588030230
+      tile_easyGround1(edit2)_33: -859037221
+      tile_easyGround1(edit2)_34: -1373705580
+      tile_easyGround1(edit2)_35: 438110224
+      tile_easyGround1(edit2)_36: -702198128
+      tile_easyGround1(edit2)_37: 790802176
+      tile_easyGround1(edit2)_38: 661008612
+      tile_easyGround1(edit2)_39: -1554610436
+      tile_easyGround1(edit2)_4: -1267544361
+      tile_easyGround1(edit2)_40: 1101700687
+      tile_easyGround1(edit2)_41: 129767368
+      tile_easyGround1(edit2)_42: 353924287
+      tile_easyGround1(edit2)_43: 573471311
+      tile_easyGround1(edit2)_5: -1100491531
+      tile_easyGround1(edit2)_6: -341744051
+      tile_easyGround1(edit2)_7: 2021536854
+      tile_easyGround1(edit2)_8: -625907622
+      tile_easyGround1(edit2)_9: -265468624
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
