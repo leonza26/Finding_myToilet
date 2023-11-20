@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PlayerController : MonoBehaviour
 {
@@ -32,5 +33,13 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate() //beda dari void update karna Update ngubahnya perframe komputer, jadi tiap pc bakal beda kecepatannya
     {
         rb.MovePosition(rb.position + move * speed * Time.fixedDeltaTime); //yang bikin karakter gerak, dikali Time.fixedDeltaTime biar lebih stabil gerakannya
+    }
+
+    void OnCollisionExit2D(Collision2D colExt) //biar kotaknya berhenti pas gak didorong
+    {
+        if (colExt.gameObject.tag == "Box")
+        {
+            colExt.gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        }
     }
 }
