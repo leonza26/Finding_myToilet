@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
+using static UnityEditor.Timeline.TimelinePlaybackControls;
 
 public class PlayerController : MonoBehaviour
 {
@@ -35,11 +36,20 @@ public class PlayerController : MonoBehaviour
         rb.MovePosition(rb.position + move * speed * Time.fixedDeltaTime); //yang bikin karakter gerak, dikali Time.fixedDeltaTime biar lebih stabil gerakannya
     }
 
-    void OnCollisionExit2D(Collision2D colExt) //biar kotaknya berhenti pas gak didorong
+    void OnCollisionExit2D(Collision2D colExt) //pas lepas dari collision,biar kotaknya berhenti pas gak didorong
     {
         if (colExt.gameObject.tag == "Box")
         {
+            anim.SetBool("pushing", false);
             colExt.gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Box")
+        {
+            anim.SetBool("pushing", true);
         }
     }
 }
