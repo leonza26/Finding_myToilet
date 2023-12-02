@@ -106,6 +106,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -136,11 +162,11 @@ TextureImporter:
         serializedVersion: 2
         x: 76
         y: 233
-        width: 40
+        width: 39
         height: 39
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 1, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -155,13 +181,13 @@ TextureImporter:
       name: TileMap_Ground_2
       rect:
         serializedVersion: 2
-        x: 116
-        y: 232
-        width: 41
-        height: 40
+        x: 118
+        y: 233
+        width: 39
+        height: 39
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 2, y: 1, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -261,12 +287,12 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 34
-        y: 190
+        y: 191
         width: 39
-        height: 40
+        height: 39
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 1, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -284,7 +310,7 @@ TextureImporter:
         x: 76
         y: 191
         width: 39
-        height: 40
+        height: 39
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,13 +328,13 @@ TextureImporter:
       name: TileMap_Ground_9
       rect:
         serializedVersion: 2
-        x: 117
-        y: 190
-        width: 43
-        height: 40
+        x: 118
+        y: 191
+        width: 39
+        height: 39
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 1, y: 1, z: 3, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -344,13 +370,13 @@ TextureImporter:
       name: TileMap_Ground_11
       rect:
         serializedVersion: 2
-        x: 215
+        x: 216
         y: 191
-        width: 40
+        width: 39
         height: 39
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 1, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -431,10 +457,10 @@ TextureImporter:
         x: 76
         y: 149
         width: 39
-        height: 40
+        height: 39
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -450,12 +476,12 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 118
-        y: 148
+        y: 149
         width: 39
-        height: 40
+        height: 39
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 1, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -491,13 +517,13 @@ TextureImporter:
       name: TileMap_Ground_18
       rect:
         serializedVersion: 2
-        x: 215
+        x: 216
         y: 149
-        width: 40
+        width: 39
         height: 39
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 1, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -514,11 +540,11 @@ TextureImporter:
         serializedVersion: 2
         x: 258
         y: 149
-        width: 40
+        width: 39
         height: 39
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 1, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -575,13 +601,13 @@ TextureImporter:
       name: TileMap_Ground_22
       rect:
         serializedVersion: 2
-        x: 74
+        x: 76
         y: 107
-        width: 41
+        width: 39
         height: 39
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 2, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -661,11 +687,11 @@ TextureImporter:
         serializedVersion: 2
         x: 258
         y: 107
-        width: 40
+        width: 39
         height: 39
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 1, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -851,10 +877,10 @@ TextureImporter:
         x: 34
         y: 23
         width: 39
-        height: 40
+        height: 39
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -872,10 +898,10 @@ TextureImporter:
         x: 76
         y: 23
         width: 39
-        height: 40
+        height: 39
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -987,27 +1013,6 @@ TextureImporter:
       bones: []
       spriteID: 5218b71c30ebbb14fa1687914de89ccf
       internalID: 1050932997
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TileMap_Ground_42
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 164
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5fbd181d8aea7a44b91ee3ce039232a8
-      internalID: 197808438
       vertices: []
       indices: 
       edges: []
