@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,6 +11,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator anim;
     Vector2 move;
+    [SerializeField] private float waktuJadiKenceng = 0f;
 
     // Update is called once per frame
     void Update()
@@ -27,8 +29,21 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetFloat("Horizontal", move.x); //ngeset parameter yang ada di animator
             anim.SetFloat("Vertical", move.y);
-            anim.speed = 1;
+            anim.speed = waktuJadiKenceng > 0 ? 2 : 1; //statement if versi 1 baris, intinya ngecek buff sendalnya buat kecepatan animasi
         }
+
+        //buat ngecek apakah buff sendal masih ada atau enggak
+        if (waktuJadiKenceng > 0) //jika buffnya masih ada
+        {
+            waktuJadiKenceng -= Time.deltaTime; //timer buff sendal dikurangi
+            speed = 4f; //kecepatannya jadi 4
+        }
+        else if (waktuJadiKenceng < 0) //jika buffnya tidak ada
+        {
+            waktuJadiKenceng = 0; //timernya akan tetap 0
+            speed = 2f; //kecepatannya menjadi 2
+        }
+
     }
 
     private void FixedUpdate() //beda dari void update karna Update ngubahnya perframe komputer, jadi tiap pc bakal beda kecepatannya
@@ -36,20 +51,8 @@ public class PlayerController : MonoBehaviour
         rb.MovePosition(rb.position + move * speed * Time.fixedDeltaTime); //yang bikin karakter gerak, dikali Time.fixedDeltaTime biar lebih stabil gerakannya
     }
 
-    void OnCollisionExit2D(Collision2D colExt) //pas lepas dari collision,biar kotaknya berhenti pas gak didorong
+    void buffCepat() //dipanggil di objek lain (ItemPickup.cs)
     {
-        if (colExt.gameObject.tag == "Box")
-        {
-            anim.SetBool("pushing", false);
-            colExt.gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-        }
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Box")
-        {
-            anim.SetBool("pushing", true);
-        }
+        waktuJadiKenceng = 8f;
     }
 }

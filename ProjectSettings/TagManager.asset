@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Box
+  - Locked Door
+  - Debuff Cabe
+  - Debuff Seblak
+  - Buff Speed
+  - Buff Time
   layers:
   - Default
   - TransparentFX

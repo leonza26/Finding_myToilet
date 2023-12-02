@@ -1,31 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BridgeScript : MonoBehaviour
 {
 
-    [SerializeField] Animator BridgeAnim;
+    [SerializeField] Animator BridgeAnim; //declare animator jembatan
 
-    // Start is called before the first frame update
-    void Start()
+    private void OnCollisionEnter2D(Collision2D collision) //kalo penghalang bersentuhan dengan objek
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Box")
+        if (collision.gameObject.tag == "Box") //jika tag objeknya box, 
         {
-            this.gameObject.SetActive(false);
-            collision.gameObject.SetActive(false);
-            BridgeAnim.SetBool("IsFixed", true);
+            this.gameObject.SetActive(false); //maka bariernya akan tidak aktif/hilang
+            BridgeAnim.SetBool("IsFixed", true); //mengubah animasi jembatannya
         }
     }
 }
