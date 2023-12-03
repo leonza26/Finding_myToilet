@@ -55,4 +55,20 @@ public class PlayerController : MonoBehaviour
     {
         waktuJadiKenceng = 8f;
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Box")
+        {
+            anim.SetBool("pushing", true);
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Box")
+        {
+            anim.SetBool("pushing", false);
+        }
+    }
 }
