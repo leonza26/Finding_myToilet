@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1fe99c5cde4cddc4fa6040e8781658ca
+guid: 105fc02c8332c404491751594c3d2f37
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 247
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,7 +134,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: tile_woodenFence_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 272
+        width: 247
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0792719d4875c89438c7d6be665238e8
+      internalID: 1488097309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_woodenFence_1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 272
+        width: 247
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0527e9c57949a14ebe968b2eda1c1d5
+      internalID: -464890572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_woodenFence_2
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 272
+        width: 247
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b5235c8b088d24ab37d2da2e0d3c87
+      internalID: -1639265130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_woodenFence_3
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 12
+        width: 247
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a19376a8b322f947a8db436dc4fdae4
+      internalID: 612695155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_woodenFence_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 12
+        width: 247
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7469585f7540970409adaa7472b3bac6
+      internalID: -783586309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_woodenFence_5
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 12
+        width: 247
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0faea9d076c0448981808ac56d2582
+      internalID: 947877931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +271,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tile_woodenFence_0: 1488097309
+      tile_woodenFence_1: -464890572
+      tile_woodenFence_2: -1639265130
+      tile_woodenFence_3: 612695155
+      tile_woodenFence_4: -783586309
+      tile_woodenFence_5: 947877931
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

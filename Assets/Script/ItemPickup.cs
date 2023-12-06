@@ -7,6 +7,12 @@ public class ItemPickup : MonoBehaviour
     [SerializeField] MonoBehaviour TimerTextCanvas; //buat script timer di canvas
     [SerializeField] MonoBehaviour scriptnyaPlayer; //buat script playercontroller
 
+    private void Start()
+    {
+        TimerTextCanvas = FindObjectOfType<TimerText>();
+        scriptnyaPlayer = FindObjectOfType<PlayerController>();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision) //jalan pas item disentuh
     {
         if(collision.gameObject.tag == "Player") //kalo yang nyentuh player,

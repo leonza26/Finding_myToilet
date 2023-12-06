@@ -28,7 +28,7 @@ public class TimerText : MonoBehaviour
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds); //tampilkan format waktu seperti string yang kita atur
     }
 
-    void kurangTambahTimer(float berapa) //dipanggil di objek lain (ItemPickup.cs)
+    public void kurangTambahTimer(float berapa) //dipanggil di objek lain (ItemPickup.cs)
     {
         waktuMundur = waktuMundur + berapa;
     }
