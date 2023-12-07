@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5738895658710270844}
   - component: {fileID: 8917880198404123188}
   - component: {fileID: 3875750615181075768}
+  - component: {fileID: 7621641381776420594}
   m_Layer: 0
   m_Name: Debuff_Seblak (Outline Merah)
   m_TagString: Debuff Seblak
@@ -133,5 +134,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b972b6db42ab714ba01bc77d84e3c5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimerTextCanvas: {fileID: 0}
-  scriptnyaPlayer: {fileID: 0}
+  buatTimer: {fileID: 0}
+  buatPlayer: {fileID: 0}
+--- !u!95 &7621641381776420594
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637549948897099136}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 231dc4b0da55146459e4be87414822eb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

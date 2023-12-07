@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3690548684653167754}
   - component: {fileID: 1608354824738327512}
   - component: {fileID: 4136431278731296286}
+  - component: {fileID: 1365504563058052697}
   m_Layer: 0
   m_Name: Buff_Sendal
   m_TagString: Buff Speed
@@ -133,5 +134,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b972b6db42ab714ba01bc77d84e3c5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimerTextCanvas: {fileID: 0}
-  scriptnyaPlayer: {fileID: 0}
+  buatTimer: {fileID: 0}
+  buatPlayer: {fileID: 0}
+--- !u!95 &1365504563058052697
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6227451631013685545}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4f8317adf8b01cf44b9a1d8b7b8a0c83, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

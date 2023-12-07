@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
         rb.MovePosition(rb.position + move * speed * Time.fixedDeltaTime); //yang bikin karakter gerak, dikali Time.fixedDeltaTime biar lebih stabil gerakannya
     }
 
-    void buffCepat() //dipanggil di objek lain (ItemPickup.cs)
+    public void buffCepat() //dipanggil di objek lain (ItemPickup.cs)
     {
         waktuJadiKenceng = 8f;
     }
