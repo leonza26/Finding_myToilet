@@ -5,10 +5,12 @@ using UnityEngine;
 
 public class FinishLine : MonoBehaviour
 {
+    [SerializeField] private GameManager gm;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        gm = FindObjectOfType<GameManager>();
     }
 
     // Update is called once per frame
@@ -21,7 +23,7 @@ public class FinishLine : MonoBehaviour
     {
         if( collision.gameObject.tag == "Player")
         {
-            Debug.Log("kelar yey");
+            gm.GameWin();
         }
     }
 }

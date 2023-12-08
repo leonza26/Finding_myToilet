@@ -7,26 +7,35 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private TimerText timer; //deklarasi objek script TimerText
     [SerializeField] private PlayerController player; //deklarasi objek script PlayerController
-    [SerializeField] public float waktuDetik;
+    [SerializeField] public float waktuDetik; //untuk timernya
+    private float waktuSelesai; //untuk mencatat waktu selesai levelnya
+    bool apakahMenang = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        timer = GameObject.Find("Canvas").GetComponent<TimerText>(); //membuat referensi TimerText di timer
-        player = GameObject.Find("Manager/Player/Player").GetComponent<PlayerController>(); //membuat referensi PlayerController di timer
+        timer = FindObjectOfType<TimerText>(); //membuat referensi TimerText di timer
+        player = FindObjectOfType<PlayerController>(); //membuat referensi PlayerController di timer
     }
 
     // Update is called once per frame
     void Update()
     {
-        //menghitung mundur time limit (copyan dari script TimerText sebelumnya)
-        if(waktuDetik >= 0)
+        hitungWaktu(); //menghitung mundur time limit (copyan dari script TimerText sebelumnya)
+    }
+
+    void hitungWaktu()
+    {
+        if(!apakahMenang) 
         {
-            waktuDetik -= Time.deltaTime;
-        }
-        else
-        {
-            GameOver(); //memanggil fungsi GameOver bila waktu habis
+            if (waktuDetik > 0)
+            {
+                waktuDetik -= Time.deltaTime;
+            }
+            else if (waktuDetik < 0)
+            {
+                GameOver(); //memanggil fungsi GameOver bila waktu habis
+            }
         }
     }
 
@@ -34,6 +43,14 @@ public class GameManager : MonoBehaviour
     {
         waktuDetik = 0;
         timer.waktuHabis();
+    }
+
+    public void GameWin()
+    {
+        apakahMenang = true;
+        waktuSelesai = waktuDetik;
+        Debug.Log("Hore kelar, waktu: " + waktuSelesai.ToString());
+        player.gameObject.SetActive(false);
     }
 
     public void kurangTambahTimer(float berapa) //dipanggil di objek lain (ItemPickup.cs)

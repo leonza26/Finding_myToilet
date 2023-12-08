@@ -23,10 +23,10 @@ public class TimerText : MonoBehaviour
         {
             waktuMundur -= Time.deltaTime; //set waktu mundur
         }
-        else if (waktuMundur < 0) {
-            waktuMundur = 0;
+        else if (gm.waktuDetik < 0) {
+            gm.waktuDetik = 0;
             timerText.color = Color.red;
-        }*/
+        } */
 
         int minutes = Mathf.FloorToInt(gm.waktuDetik / 60); //ubah  dari menit ke detik
         int seconds = Mathf.FloorToInt(gm.waktuDetik % 60); 
