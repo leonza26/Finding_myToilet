@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 76e7620a5e0e25944bfce5599217c60f
+guid: 3f2872629d5ec264e9010c025817a948
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,19 +72,6 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -94,7 +81,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Server
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -132,16 +119,29 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spritesheet Animation Rain Window Office_1_0
+      name: Spritesheet Animation Rain Window Office_1 1_0
       rect:
         serializedVersion: 2
         x: 77
         y: 16
-        width: 56
+        width: 55
         height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -150,14 +150,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4726d4a0e9a366c409f525b95078d660
-      internalID: -2025176769
+      spriteID: d98c680eb93478040b98968f9424c2b2
+      internalID: -847589877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spritesheet Animation Rain Window Office_1_1
+      name: Spritesheet Animation Rain Window Office_1 1_1
       rect:
         serializedVersion: 2
         x: 166
@@ -171,8 +171,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b876227232815334388a328afb71dd9d
-      internalID: -648109556
+      spriteID: 4747dc216ceb5714a84ba35ec2cb1892
+      internalID: 2128256860
       vertices: []
       indices: 
       edges: []
@@ -188,8 +188,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Spritesheet Animation Rain Window Office_1_0: -2025176769
-      Spritesheet Animation Rain Window Office_1_1: -648109556
+      Spritesheet Animation Rain Window Office_1 1_0: -847589877
+      Spritesheet Animation Rain Window Office_1 1_1: 2128256860
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
