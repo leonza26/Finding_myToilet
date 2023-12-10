@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class AnimatorController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private Animator animator;
+
+
+    public void Open()
     {
-        
+        animator.SetBool("IsOpen", true);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Close()
     {
-        
+        animator.SetBool("IsOpen", false);
     }
 }
