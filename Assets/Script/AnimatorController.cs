@@ -4,17 +4,20 @@ using UnityEngine;
 
 public class AnimatorController : MonoBehaviour
 {
-    [SerializeField] private Animator animator;
+    //note: gatau kenapa event di animation itu gak nangkep 
+    //      skrip-skrip di canvas, cuman nangkep di objeknya 
+    //      sendiri, jadi animator controllernya kujadiin aja
+    //      buat namba-nambahin fungsi yang dijalanin di 
+    //      event animation.
 
     public void Open()
     {
-        animator.SetBool("IsOpen", true);
-        Time.timeScale = 0f; // Pause game
+        
+        Time.timeScale = 0f;
     }
-
     public void Close()
     {
-        animator.SetBool("IsOpen", false);
-        Time.timeScale = 1f; // Kembalikan ke normal
+        this.gameObject.SetActive(false);
+        Time.timeScale = 1.0f;
     }
 }

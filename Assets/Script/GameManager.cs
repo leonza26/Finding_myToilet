@@ -10,15 +10,17 @@ public class GameManager : MonoBehaviour
     [SerializeField] public float waktuDetik; //untuk timernya
 
     [SerializeField] private GameObject winScreen;
+    [SerializeField] private GameObject loseScreen;
 
     private float waktuSelesai; //untuk mencatat waktu selesai levelnya
-    bool apakahMenang = false;
+    bool apakahGameSelesai = false;
 
     // Start is called before the first frame update
     void Start()
     {
         timer = FindObjectOfType<TimerText>(); //membuat referensi TimerText di timer
         player = FindObjectOfType<PlayerController>(); //membuat referensi PlayerController di player
+        Time.timeScale = 1f;
     }
 
     // Update is called once per frame
@@ -29,7 +31,7 @@ public class GameManager : MonoBehaviour
 
     void hitungWaktu()
     {
-        if(!apakahMenang) 
+        if(!apakahGameSelesai) 
         {
             if (waktuDetik > 0)
             {
@@ -46,15 +48,17 @@ public class GameManager : MonoBehaviour
     {
         waktuDetik = 0;
         timer.waktuHabis();
+        loseScreen.SetActive(true);
+        player.gameObject.SetActive(false);
     }
 
     public void GameWin() //dipanggil ketika player menyentuh trigger finishline
     {
-        apakahMenang = true;
+        apakahGameSelesai = true;
         waktuSelesai = waktuDetik;
-        Debug.Log("Hore kelar, waktu: " + waktuSelesai.ToString());
         player.gameObject.SetActive(false);
-        winScreen.gameObject.SetActive(true);
+        winScreen.SetActive(true);
+        timer.waktuSisa(waktuSelesai);
     }
 
     public void kurangTambahTimer(float berapa) //dipanggil di objek lain (ItemPickup.cs)

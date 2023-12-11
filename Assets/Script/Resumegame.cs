@@ -5,16 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class Resumegame : MonoBehaviour
 {
-    // fungi button untuk pause game
+    [SerializeField] GameObject resumeMenu;
+    [SerializeField] Animator anim;
+    [SerializeField] public string levelSelanjutnya;
+
+    // fungsi button untuk pause game
     public void PauseGame()
     {
-        Time.timeScale = 0f;
+        resumeMenu.SetActive(true);
+        anim.SetBool("IsOpen", true);
+        //Time.timeScale = 0f;
     }
 
     //fungsi untuk kembali ke game/resume game
     public void ResumeGame()
     {
-        Time.timeScale = 1.0f;
+        anim.SetBool("IsOpen", false);
+        //Time.timeScale = 1.0f;
     }
 
     public void RestartGame()
@@ -25,5 +32,10 @@ public class Resumegame : MonoBehaviour
     public void BackToHome()
     {
         SceneManager.LoadScene("MainMenu");
+    }
+
+    public void NextStage() //untuk tombol next, string levelSelanjutnya diedit di property Canvas
+    {
+        SceneManager.LoadScene(levelSelanjutnya);
     }
 }
