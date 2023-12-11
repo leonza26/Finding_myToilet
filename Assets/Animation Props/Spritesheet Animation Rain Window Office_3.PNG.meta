@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0249844460bf996499cbe9593d4f6001
+guid: 8f1397d8daad93544b662272da73c260
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tilemap_Floor Office_Add 3_0
+      name: Spritesheet Animation Rain Window Office_3_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 35
-        width: 32
-        height: 32
+        x: 77
+        y: 16
+        width: 55
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a36e170a726a75f4cac8aee3b4f8fbd6
-      internalID: -1829582830
+      spriteID: 8fc017727e167be4a84d91ad4dc835e9
+      internalID: -199918479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Floor Office_Add 3_1
+      name: Spritesheet Animation Rain Window Office_3_1
       rect:
         serializedVersion: 2
-        x: 79
-        y: 35
-        width: 32
-        height: 32
+        x: 166
+        y: 16
+        width: 55
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 543bbf0f3453e3e46b99efceb31fb9de
-      internalID: 657097927
+      spriteID: edb911060cd339b43a2e8092e477b1ab
+      internalID: -575555769
       vertices: []
       indices: 
       edges: []
@@ -162,8 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tilemap_Floor Office_Add 3_0: -1829582830
-      Tilemap_Floor Office_Add 3_1: 657097927
+      Spritesheet Animation Rain Window Office_3_0: -199918479
+      Spritesheet Animation Rain Window Office_3_1: -575555769
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
