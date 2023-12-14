@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dfbba53f38ad0d94d9508943aec050a2
+guid: 052dceef0f6caa644855cd185df7224c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -136,97 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tilemap_Floor Office_Add 1_0
+      name: Brown Box (For Move) 1_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 50
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e7df3ffa0b3a7644ae6c725a47c9c71
-      internalID: -630807730
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap_Floor Office_Add 1_1
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 15
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c1389ecf963e2e47b248bd5ec9f942b
-      internalID: -75703892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap_Floor Office_Add 1_2
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 15
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc628c00374c41a40a0f615a49487334
-      internalID: 1543477598
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap_Floor Office_Add 1_3
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 15
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae32642554252514db8b52c9cd640c48
-      internalID: -840454318
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap_Floor Office_Add 1_4
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 50
-        width: 32
-        height: 32
+        x: 11
+        y: 16
+        width: 11
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31e9ac636d8293d44adba8763b775af3
-      internalID: 735562054
+      spriteID: 57474845433cba649971e368729c2a79
+      internalID: 1197802655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Floor Office_Add 1_5
+      name: Brown Box (For Move) 1_1
       rect:
         serializedVersion: 2
-        x: 91
-        y: 50
-        width: 32
-        height: 32
+        x: 11
+        y: 5
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,8 +171,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0e8245c87f9a8549ac2539b81f75ae2
-      internalID: 183780299
+      spriteID: aa5264932ae143842859bc145a521f72
+      internalID: 1026202943
       vertices: []
       indices: 
       edges: []
@@ -272,12 +188,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tilemap_Floor Office_Add 1_0: -630807730
-      Tilemap_Floor Office_Add 1_1: -75703892
-      Tilemap_Floor Office_Add 1_2: 1543477598
-      Tilemap_Floor Office_Add 1_3: -840454318
-      Tilemap_Floor Office_Add 1_4: 735562054
-      Tilemap_Floor Office_Add 1_5: 183780299
+      Brown Box (For Move) 1_0: 1197802655
+      Brown Box (For Move) 1_1: 1026202943
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
