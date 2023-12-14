@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e843abefaa1a9b544bb120c245824b64
+guid: 700d9d499ceea8a40b41ae5b4e0e0aba
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -107,19 +107,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -149,106 +136,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spritesheet Seblak Animation _0
+      name: Spritesheet Udin Office Move Box_Front_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 15
-        width: 36
-        height: 42
+        x: 6
+        y: 2
+        width: 26
+        height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f19bd307a39ac5741bc99c1a38672ca8
-      internalID: 2016367703
+      spriteID: a4ab90bdaa7541545acccdc7f83a4fb1
+      internalID: -191205370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spritesheet Seblak Animation _1
+      name: Spritesheet Udin Office Move Box_Front_1
       rect:
         serializedVersion: 2
-        x: 60
-        y: 15
-        width: 36
-        height: 42
+        x: 43
+        y: 2
+        width: 26
+        height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90e87afeb05ea564a9d641fe207c4c16
-      internalID: -1931061938
+      spriteID: dcc77a4e07516fe4fb8dea15c37437dd
+      internalID: -534358130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spritesheet Seblak Animation _2
+      name: Spritesheet Udin Office Move Box_Front_2
       rect:
         serializedVersion: 2
-        x: 106
-        y: 15
-        width: 36
-        height: 42
+        x: 81
+        y: 2
+        width: 26
+        height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0886da231046104fb27c40717cb56cb
-      internalID: -418614254
+      spriteID: ee6a6c353e1e73a43a71a61113188544
+      internalID: -150979557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spritesheet Seblak Animation _3
+      name: Spritesheet Udin Office Move Box_Front_3
       rect:
         serializedVersion: 2
-        x: 152
-        y: 15
-        width: 36
-        height: 42
+        x: 119
+        y: 2
+        width: 26
+        height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d69c29ff73db24b4799612cc85c95e39
-      internalID: 837178405
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spritesheet Seblak Animation _4
-      rect:
-        serializedVersion: 2
-        x: 198
-        y: 15
-        width: 36
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c898f88aabb1dc54081a23b6c75596b2
-      internalID: -351822486
+      spriteID: 7e703d3e106e7864dba5dfa6c18b53f7
+      internalID: 648906911
       vertices: []
       indices: 
       edges: []
@@ -264,11 +230,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Spritesheet Seblak Animation _0: 2016367703
-      Spritesheet Seblak Animation _1: -1931061938
-      Spritesheet Seblak Animation _2: -418614254
-      Spritesheet Seblak Animation _3: 837178405
-      Spritesheet Seblak Animation _4: -351822486
+      Spritesheet Udin Office Move Box_Front_0: -191205370
+      Spritesheet Udin Office Move Box_Front_1: -534358130
+      Spritesheet Udin Office Move Box_Front_2: -150979557
+      Spritesheet Udin Office Move Box_Front_3: 648906911
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e843abefaa1a9b544bb120c245824b64
+guid: 31c82f63939a3ca47ae32a7c3946dc2e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -149,13 +149,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spritesheet Seblak Animation _0
+      name: Spritesheet Udin Walk_Back_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 15
-        width: 36
-        height: 42
+        x: 5
+        y: 6
+        width: 29
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f19bd307a39ac5741bc99c1a38672ca8
-      internalID: 2016367703
+      spriteID: 762f623c7febfda4dae69e202022bc29
+      internalID: 825050943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spritesheet Seblak Animation _1
+      name: Spritesheet Udin Walk_Back_1
       rect:
         serializedVersion: 2
-        x: 60
-        y: 15
-        width: 36
-        height: 42
+        x: 43
+        y: 6
+        width: 27
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90e87afeb05ea564a9d641fe207c4c16
-      internalID: -1931061938
+      spriteID: 6af577a98d1c4e341bc210957b7135f5
+      internalID: 447393652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spritesheet Seblak Animation _2
+      name: Spritesheet Udin Walk_Back_2
       rect:
         serializedVersion: 2
-        x: 106
-        y: 15
-        width: 36
-        height: 42
+        x: 80
+        y: 6
+        width: 30
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0886da231046104fb27c40717cb56cb
-      internalID: -418614254
+      spriteID: 5452dfc1bef2e40419c0d1a857fce9fe
+      internalID: -7584734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spritesheet Seblak Animation _3
+      name: Spritesheet Udin Walk_Back_3
       rect:
         serializedVersion: 2
-        x: 152
-        y: 15
-        width: 36
-        height: 42
+        x: 118
+        y: 6
+        width: 27
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,29 +226,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d69c29ff73db24b4799612cc85c95e39
-      internalID: 837178405
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spritesheet Seblak Animation _4
-      rect:
-        serializedVersion: 2
-        x: 198
-        y: 15
-        width: 36
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c898f88aabb1dc54081a23b6c75596b2
-      internalID: -351822486
+      spriteID: 2f6fd13728e04d14294e472a1adeb5b8
+      internalID: -501411629
       vertices: []
       indices: 
       edges: []
@@ -264,11 +243,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Spritesheet Seblak Animation _0: 2016367703
-      Spritesheet Seblak Animation _1: -1931061938
-      Spritesheet Seblak Animation _2: -418614254
-      Spritesheet Seblak Animation _3: 837178405
-      Spritesheet Seblak Animation _4: -351822486
+      Spritesheet Udin Walk_Back_0: 825050943
+      Spritesheet Udin Walk_Back_1: 447393652
+      Spritesheet Udin Walk_Back_2: -7584734
+      Spritesheet Udin Walk_Back_3: -501411629
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

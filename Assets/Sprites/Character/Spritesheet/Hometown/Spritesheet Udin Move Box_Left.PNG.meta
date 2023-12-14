@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e843abefaa1a9b544bb120c245824b64
+guid: 31757b29a68c82c47bf59f9660d30991
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -149,13 +149,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spritesheet Seblak Animation _0
+      name: Spritesheet Udin Move Box_Left_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 15
-        width: 36
-        height: 42
+        x: 9
+        y: 6
+        width: 23
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f19bd307a39ac5741bc99c1a38672ca8
-      internalID: 2016367703
+      spriteID: 5bb13cd8e72d1764d9f4686e9508a17d
+      internalID: -1513685409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spritesheet Seblak Animation _1
+      name: Spritesheet Udin Move Box_Left_1
       rect:
         serializedVersion: 2
-        x: 60
-        y: 15
-        width: 36
-        height: 42
+        x: 46
+        y: 6
+        width: 23
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90e87afeb05ea564a9d641fe207c4c16
-      internalID: -1931061938
+      spriteID: efd91fee1f064374f8454f8e9acdbf97
+      internalID: 337686653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spritesheet Seblak Animation _2
+      name: Spritesheet Udin Move Box_Left_2
       rect:
         serializedVersion: 2
-        x: 106
-        y: 15
-        width: 36
-        height: 42
+        x: 82
+        y: 6
+        width: 23
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0886da231046104fb27c40717cb56cb
-      internalID: -418614254
+      spriteID: adebfd3d2878533438690c0e22b75536
+      internalID: 2022162453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spritesheet Seblak Animation _3
+      name: Spritesheet Udin Move Box_Left_3
       rect:
         serializedVersion: 2
-        x: 152
-        y: 15
-        width: 36
-        height: 42
+        x: 118
+        y: 6
+        width: 23
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,29 +226,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d69c29ff73db24b4799612cc85c95e39
-      internalID: 837178405
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spritesheet Seblak Animation _4
-      rect:
-        serializedVersion: 2
-        x: 198
-        y: 15
-        width: 36
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c898f88aabb1dc54081a23b6c75596b2
-      internalID: -351822486
+      spriteID: 9e481c8e99d028c45b7ee8a21d89af2a
+      internalID: -898613116
       vertices: []
       indices: 
       edges: []
@@ -264,11 +243,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Spritesheet Seblak Animation _0: 2016367703
-      Spritesheet Seblak Animation _1: -1931061938
-      Spritesheet Seblak Animation _2: -418614254
-      Spritesheet Seblak Animation _3: 837178405
-      Spritesheet Seblak Animation _4: -351822486
+      Spritesheet Udin Move Box_Left_0: -1513685409
+      Spritesheet Udin Move Box_Left_1: 337686653
+      Spritesheet Udin Move Box_Left_2: 2022162453
+      Spritesheet Udin Move Box_Left_3: -898613116
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
