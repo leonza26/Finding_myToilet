@@ -10,8 +10,15 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed = 2f;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator anim;
+    [SerializeField] private RectTransform uiSpeed;
+
     Vector2 move;
     [SerializeField] private float waktuJadiKenceng = 0f;
+
+    void Start()
+    {
+        uiSpeed = GameObject.Find("Canvas/barSpeed").GetComponent<RectTransform>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -37,6 +44,7 @@ public class PlayerController : MonoBehaviour
         {
             waktuJadiKenceng -= Time.deltaTime; //timer buff sendal dikurangi
             speed = 4f; //kecepatannya jadi 4
+            uiSpeed.localScale = new Vector3(1.25f * waktuJadiKenceng / 8, 1.25f, 1f); //ngatur panjang bar yang ngasi tau waktu buff sepatunya, iya pake mtk :)
         }
         else if (waktuJadiKenceng < 0) //jika buffnya tidak ada
         {
@@ -53,6 +61,7 @@ public class PlayerController : MonoBehaviour
 
     public void buffCepat() //dipanggil di objek lain (ItemPickup.cs)
     {
+        uiSpeed.localScale = new Vector3(1.25f, 1.25f, 1f);
         waktuJadiKenceng = 8f;
     }
 

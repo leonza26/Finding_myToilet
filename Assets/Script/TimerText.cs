@@ -12,7 +12,7 @@ public class TimerText : MonoBehaviour
 
     void Start()
     {
-        timerText = GameObject.Find("Canvas/TimerText").GetComponent<TextMeshProUGUI>();
+        timerText = GameObject.Find("Canvas/Timer/TimerText").GetComponent<TextMeshProUGUI>();
         gm = FindObjectOfType<GameManager>();
     }
 

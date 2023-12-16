@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -12,6 +13,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject winScreen;
     [SerializeField] private GameObject loseScreen;
 
+    [SerializeField] TextMeshProUGUI buatNotif; //buat notifikasi tambah/kurang waktu
+    [SerializeField] Animator animNotif; //animatornya notif
+
     private float waktuSelesai; //untuk mencatat waktu selesai levelnya
     bool apakahGameSelesai = false;
 
@@ -20,6 +24,8 @@ public class GameManager : MonoBehaviour
     {
         timer = FindObjectOfType<TimerText>(); //membuat referensi TimerText di timer
         player = FindObjectOfType<PlayerController>(); //membuat referensi PlayerController di player
+        buatNotif = GameObject.Find("Canvas/popUpTimer").GetComponent<TextMeshProUGUI>();
+        animNotif = GameObject.Find("Canvas/popUpTimer").GetComponent<Animator>();
         Time.timeScale = 1f;
     }
 
@@ -63,6 +69,16 @@ public class GameManager : MonoBehaviour
 
     public void kurangTambahTimer(float berapa) //dipanggil di objek lain (ItemPickup.cs)
     {
+        if(berapa > 0)
+        {
+            buatNotif.text = string.Concat("+", berapa.ToString());
+            animNotif.Play("buffAnim");
+        }
+        else
+        {
+            buatNotif.text = berapa.ToString();
+            animNotif.Play("debuffAnim");
+        }
         waktuDetik = waktuDetik + berapa;
     }
 }
