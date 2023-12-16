@@ -18,6 +18,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Office.unity
     guid: 83252c97f9137514681fa78bd1c37ac9
   - enabled: 1
+    path: Assets/Scenes/VisualNovelHOmetown/VisualNovel.unity
+    guid: 0d88c92342b444140a5617839d96fad0
+  - enabled: 1
+    path: Assets/Scenes/VisualNovelHOmetown/VisualNovel2.unity
+    guid: 1cc0b5290ebba3745a2184faa4530635
+  - enabled: 1
+    path: Assets/Scenes/VisualNovelHOmetown/VisualNovel3.unity
+    guid: 1463e97394523744aa85ab938386334b
+  - enabled: 1
     path: Assets/Scenes/LevelEasy_1.unity
     guid: d4e259aae26c3634eb8e2780880f2214
   - enabled: 1
