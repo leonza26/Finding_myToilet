@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 052dceef0f6caa644855cd185df7224c
+guid: 79c7d42bb90128247be7db8caf58b5a2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -136,43 +136,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Brown Box (For Move) 1_0
+      name: Table_2 1_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 18
-        width: 11
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 424
+        width: 300
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57474845433cba649971e368729c2a79
-      internalID: 1197802655
+      spriteID: 5aadf0abdef3432469e9bc86fda57947
+      internalID: -1213671587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Brown Box (For Move) 1_1
+      name: Table_2 1_1
       rect:
         serializedVersion: 2
-        x: 11
-        y: 5
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 0
+        width: 300
+        height: 424
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa5264932ae143842859bc145a521f72
-      internalID: 1026202943
+      spriteID: 01b1dabb318f88e48a295e15232ee06b
+      internalID: 759867953
       vertices: []
       indices: 
       edges: []
@@ -188,8 +188,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Brown Box (For Move) 1_0: 1197802655
-      Brown Box (For Move) 1_1: 1026202943
+      Table_2 1_0: -1213671587
+      Table_2 1_1: 759867953
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

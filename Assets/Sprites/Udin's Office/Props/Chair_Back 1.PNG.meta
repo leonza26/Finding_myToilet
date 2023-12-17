@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 052dceef0f6caa644855cd185df7224c
+guid: 283b7bf42e60de541a27e175d179b40d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,43 +136,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Brown Box (For Move) 1_0
+      name: Chair_Back 1_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 18
-        width: 11
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 81
+        width: 150
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57474845433cba649971e368729c2a79
-      internalID: 1197802655
+      spriteID: dd5fabd809ae4384ab9b77dc2d20256f
+      internalID: 1781155633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Brown Box (For Move) 1_1
+      name: Chair_Back 1_1
       rect:
         serializedVersion: 2
-        x: 11
-        y: 5
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 0
+        width: 150
+        height: 81
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa5264932ae143842859bc145a521f72
-      internalID: 1026202943
+      spriteID: 0c55494032c3be8439e92242c3e96092
+      internalID: -1573090376
       vertices: []
       indices: 
       edges: []
@@ -188,8 +188,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Brown Box (For Move) 1_0: 1197802655
-      Brown Box (For Move) 1_1: 1026202943
+      Chair_Back 1_0: 1781155633
+      Chair_Back 1_1: -1573090376
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

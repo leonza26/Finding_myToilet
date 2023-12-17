@@ -9026,7 +9026,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timer: {fileID: 0}
   player: {fileID: 0}
-  waktuDetik: 60
+  waktuDetik: 90
   winScreen: {fileID: 537480225}
   loseScreen: {fileID: 144271076}
   buatNotif: {fileID: 0}
@@ -20136,7 +20136,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 71.55998, y: -30.320034}
+  m_AnchoredPosition: {x: 72, y: -30}
   m_SizeDelta: {x: 69.7142, y: 30.0381}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1445766703
@@ -28841,7 +28841,7 @@ Transform:
   m_GameObject: {fileID: 1989892331}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.4907813, y: 2.1518838, z: -10.5}
+  m_LocalPosition: {x: -6.4976873, y: 2.1518838, z: -10.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

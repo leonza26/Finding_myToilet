@@ -69,7 +69,8 @@ public class GameManager : MonoBehaviour
 
     public void kurangTambahTimer(float berapa) //dipanggil di objek lain (ItemPickup.cs)
     {
-        if(berapa > 0)
+        animNotif.Rebind();
+        if (berapa > 0)
         {
             buatNotif.text = string.Concat("+", berapa.ToString());
             animNotif.Play("buffAnim");
