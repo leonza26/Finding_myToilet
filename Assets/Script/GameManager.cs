@@ -16,6 +16,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI buatNotif; //buat notifikasi tambah/kurang waktu
     [SerializeField] Animator animNotif; //animatornya notif
 
+    [SerializeField] GameSound gameSound;
+
     private float waktuSelesai; //untuk mencatat waktu selesai levelnya
     bool apakahGameSelesai = false;
 
@@ -26,6 +28,7 @@ public class GameManager : MonoBehaviour
         player = FindObjectOfType<PlayerController>(); //membuat referensi PlayerController di player
         buatNotif = GameObject.Find("Canvas/popUpTimer").GetComponent<TextMeshProUGUI>();
         animNotif = GameObject.Find("Canvas/popUpTimer").GetComponent<Animator>();
+        gameSound = GetComponent<GameSound>();
         Time.timeScale = 1f;
     }
 
@@ -52,9 +55,11 @@ public class GameManager : MonoBehaviour
 
     void GameOver() //fungsi gameover
     {
+        
         waktuDetik = 0;
         timer.waktuHabis();
         loseScreen.SetActive(true);
+        gameSound.audSrc.PlayOneShot(gameSound.lose);
         player.gameObject.SetActive(false);
     }
 
@@ -63,12 +68,27 @@ public class GameManager : MonoBehaviour
         apakahGameSelesai = true;
         waktuSelesai = waktuDetik;
         player.gameObject.SetActive(false);
+        gameSound.audSrc.PlayOneShot(gameSound.win);
         winScreen.SetActive(true);
         timer.waktuSisa(waktuSelesai);
     }
 
-    public void kurangTambahTimer(float berapa) //dipanggil di objek lain (ItemPickup.cs)
+    public void kurangTambahTimer(float berapa, int suaranya) //dipanggil di objek lain (ItemPickup.cs)
     {
+        switch (suaranya)
+        {
+            case 0:
+                gameSound.audSrc.PlayOneShot(gameSound.batu);
+                break;
+            case 1:
+                gameSound.audSrc.PlayOneShot(gameSound.cabe);
+                break;
+            case 2:
+                gameSound.audSrc.PlayOneShot(gameSound.seblak);
+                break;
+            default:
+                break;
+        }
         animNotif.Rebind();
         if (berapa > 0)
         {

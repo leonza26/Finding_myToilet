@@ -21,13 +21,13 @@ public class ItemPickup : MonoBehaviour
             switch (this.gameObject.tag) //cek tagnya item
             {
                 case "Debuff Cabe":
-                    buatTimer.kurangTambahTimer(-15f); //kalo tagnya cabe, waktu berkurang 15 detik
+                    buatTimer.kurangTambahTimer(-15f, 1); //kalo tagnya cabe, waktu berkurang 15 detik
                     break;
                 case "Debuff Seblak":
-                    buatTimer.kurangTambahTimer(-30f);  //kalo tagnya seblak, waktu berkurang 30 detik
+                    buatTimer.kurangTambahTimer(-30f, 2);  //kalo tagnya seblak, waktu berkurang 30 detik
                     break;
                 case "Buff Time":
-                    buatTimer.kurangTambahTimer(10f);  //kalo tagnya buff waktu, waktu bertambah 10 detik
+                    buatTimer.kurangTambahTimer(10f, 0);  //kalo tagnya buff waktu, waktu bertambah 10 detik
                     break;
                 case "Buff Speed":
                     buatPlayer.buffCepat(); //kalo tagnya buff speed, manggil fungsi yang ada di PlayerController

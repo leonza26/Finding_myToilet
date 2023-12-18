@@ -26,4 +26,9 @@ public class BoxBehaviour : MonoBehaviour
             rb.bodyType = RigidbodyType2D.Static; //kotak menjadi statis
         }
     }
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        
+    }
 }

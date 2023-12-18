@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
 using static UnityEditor.Timeline.TimelinePlaybackControls;
@@ -11,6 +12,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator anim;
     [SerializeField] private RectTransform uiSpeed;
+    [SerializeField] private PlayerSoundEffects sfx;
 
     Vector2 move;
     [SerializeField] private float waktuJadiKenceng = 0f;
@@ -18,6 +20,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         uiSpeed = GameObject.Find("Canvas/barSpeed").GetComponent<RectTransform>();
+        sfx = GetComponent<PlayerSoundEffects>();
     }
 
     // Update is called once per frame
@@ -61,6 +64,7 @@ public class PlayerController : MonoBehaviour
 
     public void buffCepat() //dipanggil di objek lain (ItemPickup.cs)
     {
+        sfx.ambilSendal();
         uiSpeed.localScale = new Vector3(1.25f, 1.25f, 1f);
         waktuJadiKenceng = 8f;
     }
