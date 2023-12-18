@@ -664,7 +664,7 @@ PrefabInstance:
     - target: {fileID: 8015892458122762741, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 6e3d11f70c06fe14aaf945ed6a6ba7b5, type: 2}
+      objectReference: {fileID: 11400000, guid: e9769a4f936042b459a8c34912d7f2ed, type: 2}
     - target: {fileID: 8015892458122762741, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
       propertyPath: m_fontColor.b
       value: 1
@@ -684,7 +684,7 @@ PrefabInstance:
     - target: {fileID: 8015892458122762741, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: -188504971793108786, guid: 6e3d11f70c06fe14aaf945ed6a6ba7b5, type: 2}
+      objectReference: {fileID: -93079234473999192, guid: e9769a4f936042b459a8c34912d7f2ed, type: 2}
     - target: {fileID: 8015892458122762741, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4294967295
@@ -699,7 +699,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8051659738199645558, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9048852604884697071, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
       propertyPath: m_Name
