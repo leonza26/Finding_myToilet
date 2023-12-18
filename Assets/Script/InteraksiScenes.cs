@@ -51,7 +51,7 @@ public class InteraksiScenes : MonoBehaviour
         SceneManager.LoadScene("LevelMedium_3");
     }
 
-
+ // interkasi Visual novel Hometown
     public void HometownVn1()
     {
         SceneManager.LoadScene("VisualNovel");
@@ -76,6 +76,49 @@ public class InteraksiScenes : MonoBehaviour
     {
         SceneManager.LoadScene("VisualNovel5");
     }
+
+
+    //  interkasi Visual novel Office
+    public void OfficeVn1()
+    {
+        SceneManager.LoadScene("VisualNOvelO1");
+    }
+
+    public void OfficeVn2()
+    {
+        SceneManager.LoadScene("VisualNOvelO2");
+    }
+
+    public void OfficeVn3()
+    {
+        SceneManager.LoadScene("VisualNOvelO3");
+    }
+
+    public void OfficeVn4()
+    {
+        SceneManager.LoadScene("VisualNOvelO4");
+    }
+
+    public void OfficeVn5()
+    {
+        SceneManager.LoadScene("VisualNOvelO5");
+    }
+
+    public void OfficeVn6()
+    {
+        SceneManager.LoadScene("VisualNOvelO6");
+    }
+
+    public void OfficeVn7()
+    {
+        SceneManager.LoadScene("VisualNOvelO7");
+    }
+
+    public void OfficeVn8()
+    {
+        SceneManager.LoadScene("VisualNOvelO8");
+    }
+
     public void Quit()
     {
         Application.Quit();

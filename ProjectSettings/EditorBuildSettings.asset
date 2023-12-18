@@ -45,6 +45,30 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelEasy_3.unity
     guid: 9253057668f7645468e0e9e97236c773
   - enabled: 1
+    path: Assets/Scenes/VisuakNOvelOffice/VisualNOvelO1.unity
+    guid: b1afa759a8d605c43bf27b7b26fd58a6
+  - enabled: 1
+    path: Assets/Scenes/VisuakNOvelOffice/VisualNOvelO2.unity
+    guid: ba9d82287f1771e418180122d819bac3
+  - enabled: 1
+    path: Assets/Scenes/VisuakNOvelOffice/VisualNOvelO3.unity
+    guid: b27134ba33b95104cb14f8ce128f99f3
+  - enabled: 1
+    path: Assets/Scenes/VisuakNOvelOffice/VisualNOvelO4.unity
+    guid: 6642faebe59f26b44afef52257456db0
+  - enabled: 1
+    path: Assets/Scenes/VisuakNOvelOffice/VisualNOvelO5.unity
+    guid: 5348b7517ff232644a87abfcdd314044
+  - enabled: 1
+    path: Assets/Scenes/VisuakNOvelOffice/VisualNOvelO6.unity
+    guid: c19c10195b7a6c14481f2368ff751c32
+  - enabled: 1
+    path: Assets/Scenes/VisuakNOvelOffice/VisualNOvelO7.unity
+    guid: 3047aec1f702c6246855ddaa1fb4d11e
+  - enabled: 1
+    path: Assets/Scenes/VisuakNOvelOffice/VisualNOvelO8.unity
+    guid: a81384563c9c433478d7bb649060175d
+  - enabled: 1
     path: Assets/Scenes/LevelMedium_1.unity
     guid: bb560ff46e2e1a74994eda27ed5803f5
   - enabled: 1

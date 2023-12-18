@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
-  m_Name: DemoDialogGraphHT5
+  m_Name: DemoDialogGraphOF4
   m_EditorClassIdentifier: 
   nodesList:
   - {fileID: 2970576600738842132}
@@ -61,15 +61,15 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 337
-    y: 265.2
+    x: 358
+    y: 364.2
     width: 170
     height: 115
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: UDIN
-    text: Oh nooo! My stomatch hurts so bad, I have to find a toilet quickly!
+    characterName: MOMMY
+    text: Meanwhile, in the office cafetaria...
     characterSprite: {fileID: 21300000, guid: c03d0e70107745d48b9cc5f2abe74fe5, type: 3}
   parentNode: {fileID: 0}
   childNode: {fileID: 0}
