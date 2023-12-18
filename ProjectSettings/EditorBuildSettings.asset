@@ -27,6 +27,12 @@ EditorBuildSettings:
     path: Assets/Scenes/VisualNovelHOmetown/VisualNovel3.unity
     guid: 1463e97394523744aa85ab938386334b
   - enabled: 1
+    path: Assets/Scenes/VisualNovelHOmetown/VisualNovel4.unity
+    guid: 9fab91089d9c14749a55bee78eaf24f9
+  - enabled: 1
+    path: Assets/Scenes/VisualNovelHOmetown/VisualNovel5.unity
+    guid: 55cb3b3e29d35f444ae128b9b014d075
+  - enabled: 1
     path: Assets/Scenes/LevelEasy_1.unity
     guid: d4e259aae26c3634eb8e2780880f2214
   - enabled: 1

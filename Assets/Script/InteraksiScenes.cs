@@ -66,6 +66,16 @@ public class InteraksiScenes : MonoBehaviour
     {
         SceneManager.LoadScene("VisualNovel3");
     }
+
+    public void HometownVn4()
+    {
+        SceneManager.LoadScene("VisualNovel4");
+    }
+
+    public void HometownVn5()
+    {
+        SceneManager.LoadScene("VisualNovel5");
+    }
     public void Quit()
     {
         Application.Quit();
