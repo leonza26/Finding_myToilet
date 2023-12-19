@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEditor.Timeline.TimelinePlaybackControls;
 
 public class BoxBehaviour : MonoBehaviour
 {
@@ -25,10 +24,5 @@ public class BoxBehaviour : MonoBehaviour
         {
             rb.bodyType = RigidbodyType2D.Static; //kotak menjadi statis
         }
-    }
-
-    private void OnControllerColliderHit(ControllerColliderHit hit)
-    {
-        
     }
 }
