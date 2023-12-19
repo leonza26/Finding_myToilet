@@ -6,13 +6,13 @@ using UnityEngine.Video;
 
 public class GameMulai : MonoBehaviour
 {
-    public VideoPlayer vidPlay;
+    //public VideoPlayer vidPlay;
     // Start is called before the first frame update
     void Start()
     {
-        //SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("MainMenu");
 
-        vidPlay.loopPointReached += videoSelesai;
+        //vidPlay.loopPointReached += videoSelesai;
     }
 
     // Update is called once per frame
@@ -21,9 +21,9 @@ public class GameMulai : MonoBehaviour
         
     }
 
-    void videoSelesai(VideoPlayer vidPlay)
+    /*void videoSelesai(VideoPlayer vidPlay)
     {
         Debug.Log("hore");
         SceneManager.LoadScene("MainMenu");
-    }
+    }*/
 }
