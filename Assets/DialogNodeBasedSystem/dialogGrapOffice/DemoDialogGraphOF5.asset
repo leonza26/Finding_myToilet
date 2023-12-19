@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
-  m_Name: DemoDialogGraphOF3
+  m_Name: DemoDialogGraphOF5
   m_EditorClassIdentifier: 
   nodesList:
   - {fileID: 2970576600738842132}
@@ -61,15 +61,15 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 435
-    y: 236.20001
+    x: 392
+    y: 224.20001
     width: 170
     height: 115
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: EMPLOYEE B
-    text: Hahaha, right! it's like what you just said!
+    characterName: UDIN
+    text: (Hmmm, what should I eat for working overtime tonight?)
     characterSprite: {fileID: 21300000, guid: c03d0e70107745d48b9cc5f2abe74fe5, type: 3}
   parentNode: {fileID: 0}
   childNode: {fileID: 0}

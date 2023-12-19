@@ -10,13 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
-  m_Name: DemoDialogGraphHT1
+  m_Name: DemoDialogGraphOF7
   m_EditorClassIdentifier: 
   nodesList:
   - {fileID: 2970576600738842132}
-  - {fileID: 4252937235876148062}
   - {fileID: 169977738270986999}
-  - {fileID: 4714943890117671975}
   nodeToDrawLineFrom: {fileID: 0}
   linePosition: {x: 0, y: 0}
 --- !u!114 &169977738270986999
@@ -35,8 +33,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1375
-    y: 259.2
+    x: 1376
+    y: 257.2
     width: 170
     height: 115
   isDragging: 0
@@ -63,71 +61,15 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 310
-    y: 250.20001
+    x: 358
+    y: 363.2
     width: 170
     height: 115
   isDragging: 0
   isSelected: 1
   sentence:
     characterName: MOMMY
-    text: Udin wake up! Today is monday, there will be a flag ceremony at school!
+    text: In the office, when night comes...
     characterSprite: {fileID: 21300000, guid: c03d0e70107745d48b9cc5f2abe74fe5, type: 3}
   parentNode: {fileID: 0}
-  childNode: {fileID: 4252937235876148062}
---- !u!114 &4252937235876148062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: 712
-    y: 69.19998
-    width: 170
-    height: 115
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: MOMMY
-    text: Hurry up or you'll be late!
-    characterSprite: {fileID: 21300000, guid: c03d0e70107745d48b9cc5f2abe74fe5, type: 3}
-  parentNode: {fileID: 2970576600738842132}
-  childNode: {fileID: 4714943890117671975}
---- !u!114 &4714943890117671975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: 731
-    y: 242
-    width: 170
-    height: 115
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: UDIN
-    text: Yes Mom, I'll wake up now!
-    characterSprite: {fileID: 0}
-  parentNode: {fileID: 4252937235876148062}
   childNode: {fileID: 0}

@@ -524,7 +524,7 @@ PrefabInstance:
     - target: {fileID: 8015892458122762741, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: e9769a4f936042b459a8c34912d7f2ed, type: 2}
+      objectReference: {fileID: 11400000, guid: 6e3d11f70c06fe14aaf945ed6a6ba7b5, type: 2}
     - target: {fileID: 8015892458122762741, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
       propertyPath: m_fontColor.b
       value: 0.023529412
@@ -1025,7 +1025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogBehaviour: {fileID: 421547536}
-  dialogGraph: {fileID: 11400000, guid: 28afd32064f0e9144a57fba81ffedd62, type: 2}
+  dialogGraph: {fileID: 11400000, guid: 05a574ef138736044b868dee7552049c, type: 2}
 --- !u!1 &2044467143
 GameObject:
   m_ObjectHideFlags: 0
